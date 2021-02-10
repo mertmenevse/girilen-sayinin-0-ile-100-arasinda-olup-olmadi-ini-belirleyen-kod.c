@@ -6,7 +6,7 @@ int main(){
 	printf("Bir sayi giriniz...");
 	scanf("%d",&a);
 	
-	if(0<a<100){
+	if(0<a && a<100){
 		printf("%d sayisi 0 ile 100 arasindadir...",a);
 	}
 	else{
